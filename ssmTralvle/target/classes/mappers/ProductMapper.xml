@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yh.mapper.ProductMapper">
+
+	<!--修改订单表的产品的外键-->
+	<update id="updateOrdersById">
+		update orders set productId = null where productId = #{id}
+	</update>
+
+	<!--指定删除-->
+	<delete id="deleteById">
+		delete from product where id = #{id}
+	</delete>
+
+	<!--修改产品-->
+	<update id="edit">
+		update product set
+		productNum=#{productNum},
+		productName=#{productName},
+		cityName=#{cityName},
+		departureTime=#{departureTime},
+		productPrice=#{productPrice},
+		productDesc=#{productDesc},
+		productStatus=#{productStatus}
+		where id=#{id}
+	</update>
+
+	<!--修改之前进行查询-->
+	<select id="editById" resultType="Product">
+		select * from product where id = #{id}
+	</select>
+
+	<!--新增-->
+	<insert id="save">
+		insert into product(productNum,
+		productName,
+		cityName,
+		departureTime,
+		productPrice,
+		productDesc,
+		productStatus)
+		values(#{productNum},
+		#{productName},
+		#{cityName},
+		#{departureTime},
+		#{productPrice},
+		#{productDesc},
+		#{productStatus})
+	</insert>
+
+	<!--查询所有-->
+	<select id="findAll" resultType="Product">
+		select * from product
+	</select>
+	<select id="findById" resultType="com.yh.pojo.Product">
+		select * from product where id=#{id}
+	</select>
+
+</mapper>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yh.mapper.RoleMapper">
+    <!--查询所有用户信息-->
+    <select id="findAllRoles" resultType="Role">
+        select *
+        from role
+    </select>
+    
+    <insert id="addRole">
+        insert into role(roleName,roleDesc) values (#{roleName},#{roleDesc})
+    </insert>
+    <resultMap id="findByIdMap" type="Role" autoMapping="true">
+        <id column="rid" property="id"/>
+        <collection property="permissions" javaType="List" ofType="Permission" autoMapping="true">
+            <id column="pid" property="id"/>
+        </collection>
+    </resultMap>
+    <select id="findById" resultMap="findByIdMap">
+        SELECT
+            *,r.id rid,
+            p.id pid
+        FROM
+            role r
+                LEFT JOIN role_permission rp ON rp.roleId = r.id
+                LEFT JOIN permission p ON rp.permissionId = p.id
+        WHERE
+            r.id = #{id}
+    </select>
+
+    <insert id="addPermissionToRole">
+        insert into role_permission values(#{permissionId},#{roleId})
+    </insert>
+
+    <select id="findOtherPermission" resultType="Permission">
+        select * from permission where id not in(select  permissionId from role_permission where roleId = #{id})
+    </select>
+</mapper>

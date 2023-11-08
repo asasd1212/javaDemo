@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yh.mapper.UserMapper">
+	<delete id="deleteUser">
+		delete from users where id = #{id}
+	</delete>
+	<delete id="deleteUserRole">
+		delete from users_role where userId = #{id}
+	</delete>
+
+	<resultMap id="ByUserNameAnRole" type="UserInfo" autoMapping="true">
+		<id property="id" column="uid"/>
+		<!--映射role-->
+		<collection property="roles" ofType="Role" javaType="List" autoMapping="true">
+			<id property="id" column="rid"/>
+		</collection>
+
+	</resultMap>
+	<select id="findUserByUserName" resultMap="ByUserNameAnRole">
+
+		SELECT
+				*,
+				u.id as uid,
+				r.id as rid
+		FROM
+				users u,
+				role r,
+				users_role ur
+		WHERE
+			u.id = ur.userId
+		  AND r.id = ur.roleId
+		  and
+				u.username = #{s}
+
+	</select>
+	<select id="findAllUsers" resultType="UserInfo">
+		select * from users
+	</select>
+	<insert id="save">
+		insert into users(email,username,password,phoneNum,status)
+		values(#{email},#{username},#{password},#{phoneNum},#{status})
+	</insert>
+
+	<resultMap id="userInfoById" type="UserInfo" autoMapping="true">
+		<id column="id" property="id"/>
+		<!--用户对应的角色-->
+		<collection property="roles" ofType="Role" javaType="List" autoMapping="true">
+			<id column="rid" property="id"/>
+			<!--角色对应的资源-->
+			<collection property="permissions" ofType="Permission" javaType="List" autoMapping="true">
+				<id column="pid" property="id"/>
+			</collection>
+		</collection>
+	</resultMap>
+	<select id="findById"  resultMap="userInfoById">
+		SELECT
+			* ,
+			r.`id` rid,
+			p.`id` pid
+		FROM
+			users u
+				LEFT JOIN users_role ur ON ur.userId = u.id
+				LEFT JOIN role r ON ur.roleId = r.id
+				LEFT JOIN role_permission rp ON rp.roleId = r.id
+				LEFT JOIN permission p ON rp.permissionId = p.id
+		WHERE
+			u.id = #{id}
+	</select>
+
+
+	<select id="findUserByID" resultType="UserInfo">
+		select * from users where id = #{id}
+	</select>
+
+	<!--添加角色前，查询当前用户可以添加的角色-->
+	<select id="findOtherRoles" resultType="Role">
+		select * from role where id not in(select roleId from users_role where userId = #{id})
+	</select>
+
+	<insert id="addRoleToUser">
+		INSERT INTO `users_role`(`userId`, `roleId`) VALUES (#{userId}, #{roleid});
+	</insert>
+</mapper>
