@@ -87,13 +87,12 @@
 		var username = $('#username').val();
 		var password = $('#password').val();
 
-		// Perform the same action as the form submission
 		$.ajax({
 			url: '/login',
 			method: 'POST',
 			data: { username: username, password: password },
 			success: function (response) {
-				console.log(response);
+					window.location.href = '/to/index';
 			},
 			error: function (error) {
 				console.error(error);

@@ -30,7 +30,7 @@
 		<div class="login-box-body">
 			<p class="login-box-msg">登录系统</p>
 
-			<form action="/login" method="post">
+<!--			<form action="/login" method="post">-->
 				<div class="form-group has-feedback">
 					<input type="text" id="username" name="username" class="form-control"
 						placeholder="用户名"> <span
@@ -53,7 +53,7 @@
 					</div>
 					<!-- /.col -->
 				</div>
-			</form>
+<!--			</form>-->
 
 			<a href="#">忘记密码</a><br>
 
@@ -83,44 +83,26 @@
 	</script>
 </body>
 <script>
-	// $("#submit").click(function() {
-	// 	console.log(123)
-	// 	$.ajax({
-	// 		url:'${pageContext.request.contextPath}/login',
-	// 		type: 'POST',
-	// 		data: {
-	// 			username: 'jack',
-	// 			password: 123
-	// 		},
-	// 		success:function (data){
-	// 			//data就是后端响应的数据
-	// 			console.log(data)
-	// 			console.log("success")
-	// 		},
-	// 		error:function (err){
-	// 			console.log(err)
-	// 		}
-	// 	})
-	// })
-	// $('#submit').click(function () {
-	// 	var username = $('#username').val();
-	// 	var password = $('#password').val();
-	//
-	// 	// Perform the same action as the form submission
-	// 	$.ajax({
-	// 		url: '/login',
-	// 		method: 'POST',
-	// 		data: { username: username, password: password },
-	// 		success: function (response) {
-	// 			// Handle the response from the server
-	// 			console.log(response);
-	// 		},
-	// 		error: function (error) {
-	// 			// Handle any errors
-	// 			console.error(error);
-	// 		}
-	// 	});
-	// });
+	$('#submit').click(function () {
+		var username = $('#username').val();
+		var password = $('#password').val();
+
+		$.ajax({
+			url: '/login',
+			method: 'POST',
+			data: { username: username, password: password },
+			success: function (response) {
+				// 处理来自服务器的响应
+
+					// 重定向到成功页面
+					window.location.href = '/to/index';
+			},
+			error: function (error) {
+				// 处理任何错误
+				console.error(error);
+			}
+		});
+	});
 
 </script>
 </html>
