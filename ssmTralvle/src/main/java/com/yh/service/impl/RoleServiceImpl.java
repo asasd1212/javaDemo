@@ -40,4 +40,11 @@ public class RoleServiceImpl implements RoleService {
     public List<Permission> findOtherPermission(Integer id) {
         return roleMapper.findOtherPermission(id);
     }
+
+    @Override
+    public void deleteRole(Integer id) {
+        roleMapper.deleteUser_roleById(id);
+        roleMapper.deleteRole_permission(id);
+        roleMapper.deleteRole(id);
+    }
 }

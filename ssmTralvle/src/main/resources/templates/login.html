@@ -30,14 +30,14 @@
 		<div class="login-box-body">
 			<p class="login-box-msg">登录系统</p>
 
-			<form action="/login" method="post">
+<!--			<form action="/login" method="post">-->
 				<div class="form-group has-feedback">
-					<input type="text" name="username" class="form-control"
+					<input type="text" id="username" name="username" class="form-control"
 						placeholder="用户名"> <span
 						class="glyphicon glyphicon-envelope form-control-feedback"></span>
 				</div>
 				<div class="form-group has-feedback">
-					<input type="password" name="password" class="form-control"
+					<input type="password" id="password" name="password" class="form-control"
 						placeholder="密码"> <span
 						class="glyphicon glyphicon-lock form-control-feedback"></span>
 				</div>
@@ -49,11 +49,11 @@
 					</div>
 					<!-- /.col -->
 					<div class="col-xs-4">
-						<button type="submit" class="btn btn-primary btn-block btn-flat">登录</button>
+						<button  id="submit" class="btn btn-primary btn-block btn-flat">登录</button>
 					</div>
 					<!-- /.col -->
 				</div>
-			</form>
+<!--			</form>-->
 
 			<a href="#">忘记密码</a><br>
 
@@ -82,5 +82,24 @@
 		});
 	</script>
 </body>
+<script>
+	$('#submit').click(function () {
+		var username = $('#username').val();
+		var password = $('#password').val();
 
+		// Perform the same action as the form submission
+		$.ajax({
+			url: '/login',
+			method: 'POST',
+			data: { username: username, password: password },
+			success: function (response) {
+				console.log(response);
+			},
+			error: function (error) {
+				console.error(error);
+			}
+		});
+	});
+
+</script>
 </html>

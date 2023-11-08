@@ -32,12 +32,12 @@
 
 			<form action="/login" method="post">
 				<div class="form-group has-feedback">
-					<input type="text" name="username" class="form-control"
+					<input type="text" id="username" name="username" class="form-control"
 						placeholder="用户名"> <span
 						class="glyphicon glyphicon-envelope form-control-feedback"></span>
 				</div>
 				<div class="form-group has-feedback">
-					<input type="password" name="password" class="form-control"
+					<input type="password" id="password" name="password" class="form-control"
 						placeholder="密码"> <span
 						class="glyphicon glyphicon-lock form-control-feedback"></span>
 				</div>
@@ -49,7 +49,7 @@
 					</div>
 					<!-- /.col -->
 					<div class="col-xs-4">
-						<button type="submit" class="btn btn-primary btn-block btn-flat">登录</button>
+						<button  id="submit" class="btn btn-primary btn-block btn-flat">登录</button>
 					</div>
 					<!-- /.col -->
 				</div>
@@ -82,5 +82,45 @@
 		});
 	</script>
 </body>
+<script>
+	// $("#submit").click(function() {
+	// 	console.log(123)
+	// 	$.ajax({
+	// 		url:'${pageContext.request.contextPath}/login',
+	// 		type: 'POST',
+	// 		data: {
+	// 			username: 'jack',
+	// 			password: 123
+	// 		},
+	// 		success:function (data){
+	// 			//data就是后端响应的数据
+	// 			console.log(data)
+	// 			console.log("success")
+	// 		},
+	// 		error:function (err){
+	// 			console.log(err)
+	// 		}
+	// 	})
+	// })
+	// $('#submit').click(function () {
+	// 	var username = $('#username').val();
+	// 	var password = $('#password').val();
+	//
+	// 	// Perform the same action as the form submission
+	// 	$.ajax({
+	// 		url: '/login',
+	// 		method: 'POST',
+	// 		data: { username: username, password: password },
+	// 		success: function (response) {
+	// 			// Handle the response from the server
+	// 			console.log(response);
+	// 		},
+	// 		error: function (error) {
+	// 			// Handle any errors
+	// 			console.error(error);
+	// 		}
+	// 	});
+	// });
 
+</script>
 </html>

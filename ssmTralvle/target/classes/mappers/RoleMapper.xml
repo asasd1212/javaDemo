@@ -35,4 +35,16 @@
     <select id="findOtherPermission" resultType="Permission">
         select * from permission where id not in(select  permissionId from role_permission where roleId = #{id})
     </select>
+
+    <delete id="deleteRole">
+        delete from role where id = #{id}
+    </delete>
+
+    <delete id="deleteUser_roleById">
+        delete from users_role where roleid = #{id}
+    </delete>
+
+    <delete id="deleteRole_permission">
+        delete from role_permission where roleid = #{id}
+    </delete>
 </mapper>

@@ -6,12 +6,11 @@ import com.yh.pojo.Role;
 import com.yh.pojo.UserInfo;
 import com.yh.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 @Controller
@@ -80,11 +79,17 @@ public class UserController {
     @GetMapping("deleteUser")
     public String deleteUser(@RequestParam("id") Integer id){
         //先把用户对应角色关系删除
-        this.userService.deleteUserRole(id);
+        userService.deleteUserRole(id);
 
         //删除用户
-        this.userService.deleteUser(id);
+        userService.deleteUser(id);
 
         return "redirect:findAll";
+    }
+    @ResponseBody
+    @GetMapping("getUsername")
+    public String getUserName(){
+    User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+    return user.getUsername();
     }
 }

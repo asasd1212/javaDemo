@@ -15,4 +15,6 @@ public interface RoleService {
     void addPermissionToRole(Integer roleId, Integer[] ids);
 
     List<Permission> findOtherPermission(Integer id);
+
+    void deleteRole(Integer id);
 }

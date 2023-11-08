@@ -16,4 +16,9 @@ public interface RoleMapper {
     void addPermissionToRole(@Param("roleId") Integer roleId, @Param("permissionId") Integer permissionId);
 
     List<Permission> findOtherPermission(Integer id);
+
+    void deleteRole(Integer id);
+    void deleteUser_roleById(Integer id);
+
+    void deleteRole_permission(Integer id);
 }

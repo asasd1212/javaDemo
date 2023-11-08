@@ -68,4 +68,10 @@ public class RoleController {
         model.addAttribute("permissionList", otherPermission);
         return "role-permission-add";
     }
+
+    @GetMapping("deleteRole")
+    public String deleteRole(@RequestParam("id") Integer id){
+        roleService.deleteRole(id);
+        return "redirect:findAll";
+    }
 }
