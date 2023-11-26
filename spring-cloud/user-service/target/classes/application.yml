@@ -1,0 +1,20 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: user-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/traveldb?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123123
+mybatis:
+  type-aliases-package: cn.tbs.pojo
+  mapper-locations: classpath:mappers/*.xml
+
+eureka:
+    client:
+      service-url:
+        defaultZone: http://127.0.0.1:10086/eureka
+        lease-expiration-duration-in-seconds: 90
+        lease-renewal-interval-in-seconds: 30

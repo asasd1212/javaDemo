@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../addUser/addUser.iml" filepath="$PROJECT_DIR$/../addUser/addUser.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssmTralvle.iml" filepath="$PROJECT_DIR$/ssmTralvle.iml" />
     </modules>
   </component>

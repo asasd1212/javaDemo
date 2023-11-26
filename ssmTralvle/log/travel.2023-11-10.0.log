@@ -1,0 +1,22 @@
+13:20:37.609 [[34mmain[0;39m] [34mINFO [0;39m c.yh.SSMApplication - [[34mlogStarting[0;39m,55] - Starting SSMApplication using Java 1.8.0_201 on YL with PID 25024 (D:\java\ssmTralvle\target\classes started by YL in D:\java\ssmTralvle)
+13:20:37.614 [[34mmain[0;39m] [34mINFO [0;39m c.yh.SSMApplication - [[34mlogStartupProfileInfo[0;39m,663] - No active profile set, falling back to default profiles: default
+13:20:40.371 [[34mmain[0;39m] [34mINFO [0;39m c.yh.SSMApplication - [[34mlogStarted[0;39m,61] - Started SSMApplication in 3.111 seconds (JVM running for 3.931)
+13:20:54.429 [[34mhttp-nio-80-exec-10[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mbefore[0;39m,46] - ==============>>>>>2023-11-10 13:20:54进入到了UserServiceImpl类的loadUserByUsername方法，参数是:[jack]
+13:20:58.211 [[34mhttp-nio-80-exec-5[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mbefore[0;39m,46] - ==============>>>>>2023-11-10 13:20:58进入到了ProductServicelmpl类的findAll方法，参数是:[]
+13:20:58.415 [[34mhttp-nio-80-exec-5[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mafter[0;39m,63] - ==============>>>>>2023-11-10 13:20:58执行ProductServicelmpl类的findAll方法结束,花费的时间是：204ms
+13:21:04.727 [[34mhttp-nio-80-exec-2[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mbefore[0;39m,46] - ==============>>>>>2023-11-10 13:21:04进入到了OrderServiceImpl类的findAll方法，参数是:[]
+13:21:04.747 [[34mhttp-nio-80-exec-2[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mafter[0;39m,63] - ==============>>>>>2023-11-10 13:21:04执行OrderServiceImpl类的findAll方法结束,花费的时间是：20ms
+13:21:07.702 [[34mhttp-nio-80-exec-5[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mbefore[0;39m,46] - ==============>>>>>2023-11-10 13:21:07进入到了ProductServicelmpl类的findAll方法，参数是:[]
+13:21:07.711 [[34mhttp-nio-80-exec-5[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mafter[0;39m,63] - ==============>>>>>2023-11-10 13:21:07执行ProductServicelmpl类的findAll方法结束,花费的时间是：9ms
+13:21:16.933 [[34mhttp-nio-80-exec-6[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mbefore[0;39m,46] - ==============>>>>>2023-11-10 13:21:16进入到了ProductServicelmpl类的findAll方法，参数是:[]
+13:21:16.941 [[34mhttp-nio-80-exec-6[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mafter[0;39m,63] - ==============>>>>>2023-11-10 13:21:16执行ProductServicelmpl类的findAll方法结束,花费的时间是：8ms
+13:21:19.675 [[34mhttp-nio-80-exec-6[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mbefore[0;39m,46] - ==============>>>>>2023-11-10 13:21:19进入到了OrderServiceImpl类的findAll方法，参数是:[]
+13:21:19.681 [[34mhttp-nio-80-exec-6[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mafter[0;39m,63] - ==============>>>>>2023-11-10 13:21:19执行OrderServiceImpl类的findAll方法结束,花费的时间是：7ms
+13:21:22.592 [[34mhttp-nio-80-exec-7[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mbefore[0;39m,46] - ==============>>>>>2023-11-10 13:21:22进入到了ProductServicelmpl类的findAll方法，参数是:[]
+13:21:22.599 [[34mhttp-nio-80-exec-7[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mafter[0;39m,63] - ==============>>>>>2023-11-10 13:21:22执行ProductServicelmpl类的findAll方法结束,花费的时间是：7ms
+13:21:30.996 [[34mhttp-nio-80-exec-8[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mbefore[0;39m,46] - ==============>>>>>2023-11-10 13:21:30进入到了ProductServicelmpl类的findAll方法，参数是:[]
+13:21:31.000 [[34mhttp-nio-80-exec-8[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mafter[0;39m,63] - ==============>>>>>2023-11-10 13:21:31执行ProductServicelmpl类的findAll方法结束,花费的时间是：4ms
+13:21:33.767 [[34mhttp-nio-80-exec-4[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mbefore[0;39m,46] - ==============>>>>>2023-11-10 13:21:33进入到了ProductServicelmpl类的findAll方法，参数是:[]
+13:21:33.773 [[34mhttp-nio-80-exec-4[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mafter[0;39m,63] - ==============>>>>>2023-11-10 13:21:33执行ProductServicelmpl类的findAll方法结束,花费的时间是：6ms
+13:21:36.245 [[34mhttp-nio-80-exec-5[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mbefore[0;39m,46] - ==============>>>>>2023-11-10 13:21:36进入到了OrderServiceImpl类的findAll方法，参数是:[]
+13:21:36.252 [[34mhttp-nio-80-exec-5[0;39m] [34mINFO [0;39m com.yh.aop.LogAop - [[34mafter[0;39m,63] - ==============>>>>>2023-11-10 13:21:36执行OrderServiceImpl类的findAll方法结束,花费的时间是：7ms

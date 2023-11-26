@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f5271de-bd38-4a0e-9909-55075f4aed96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/MQApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/config/DirectQueueConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/config/FanoutQueueConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/config/TopicQueueConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/config/WorkQueueConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/direct/DirectConsumerOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/direct/DirectConsumerTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/direct/DirectProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/fanout/FanoutConsumerOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/fanout/FanoutConsumerTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/fanout/FanoutProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/simple/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/simple/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/topic/TopicConsumerOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/topic/TopicConsumerTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/topic/TopicProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/web/DirectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/web/FanoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/web/TopicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/web/WorkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/work/WorkCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/work/WorkCustomerTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/tbs/work/WorkProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../addUser/addUser.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../addUser/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../addUser/src/main/java/cn/tbs/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../addUser/src/main/java/cn/tbs/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../addUser/src/main/java/cn/tbs/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../addUser/src/main/java/cn/tbs/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../addUser/src/main/java/cn/tbs/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../addUser/src/main/java/cn/tbs/web/SSMApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../addUser/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../addUser/src/main/resources/static/plugins/jQuery/jquery-2.2.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../addUser/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../addUser/src/main/resources/templates/userList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jedisDemo/src/main/java/cn/tbs/RedisApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jedisDemo/src/main/java/cn/tbs/conf/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jedisDemo/src/main/java/cn/tbs/until/jedisPoolUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jedisDemo/src/main/java/cn/tbs/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jedisDemo/src/main/resources/jedis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jedisDemo/src/test/java/cn/tbs/test/TS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01/src/main/java/cn/tbs/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01/src/test/java/cn/tbs/ts/TS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro02/src/main/java/cn/tbs/dao/ArticleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro02/src/main/java/cn/tbs/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro02/src/main/java/cn/tbs/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro02/src/main/java/cn/tbs/service/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro02/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro02/src/test/java/SpringESDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-demo/src/main/java/cn/tbs/ConsumerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-demo/src/main/java/cn/tbs/api/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-demo/src/main/java/cn/tbs/fallback/UserClientFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-demo/src/main/java/cn/tbs/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-demo/src/main/java/cn/tbs/web/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-demo/src/main/java/cn/tbs/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/cn/tbs/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server2/src/main/java/cn/tbs/EurekaServerApplication2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server2/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server2/target/classes/cn/tbs/EurekaServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server3/src/main/java/cn/tbs/EurekaServerApplication3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server3/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server3/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server3/target/classes/cn/tbs/EurekaServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/tbs/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/tbs/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/tbs/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/tbs/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/tbs/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/tbs/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/src/main/java/cn/tbs/UserApplication2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/src/main/java/cn/tbs/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/src/main/java/cn/tbs/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/src/main/java/cn/tbs/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/src/main/java/cn/tbs/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/src/main/java/cn/tbs/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/target/classes/cn/tbs/UserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/target/classes/cn/tbs/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/target/classes/cn/tbs/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/target/classes/cn/tbs/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/target/classes/cn/tbs/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/target/classes/cn/tbs/web/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service2/target/user-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zull-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zull-server/src/main/java/cn/tbs/ZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zull-server/src/main/java/cn/tbs/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zull-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmTralvle/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/cn/tbs/SSMApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/cn/tbs/controller/userController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/cn/tbs/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/cn/tbs/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/cn/tbs/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/cn/tbs/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/resources/templates/userList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmTralvle/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmTralvle/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmTralvle/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmTralvle/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/log/travel.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmTralvle/log/travel.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmTralvle/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/SSMApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/aop/LogAop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/mapper/OrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/mapper/PermissionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/mapper/ProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/mapper/RoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/mapper/SysLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/pojo/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/pojo/Orders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/pojo/Permission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/pojo/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/pojo/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/pojo/SysLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/pojo/Traveller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/pojo/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/service/PermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/service/SysLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/service/impl/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/service/impl/PermissionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/service/impl/ProductServicelmpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/service/impl/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/service/impl/SysLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/web/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/web/PageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/web/PermissionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/web/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/web/SysLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/web/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/java/com/yh/web/productController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/mappers/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/mappers/PermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/mappers/ProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/mappers/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/mappers/SysLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/mappers/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/aside.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/failer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/order-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/order-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/order-show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/permission-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/permission-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/product-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/product-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/product-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/product-show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/role-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/role-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/role-permission-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/role-show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/syslog-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/user-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/user-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/user-role-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/src/main/resources/templates/user-show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmTralvle/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/target/classes/com/yh/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmTralvle/target/classes/com/yh/web/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssmTralvle/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ssmTralvle/target/classes/templates/login.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../SofaWare/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\SofaWare\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Yc9c0FUEiFTsrUGkmyOetmXRf6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MavenRunConfiguration" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ZuulApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="consumer-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tbs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tbs.ConsumerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tbs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tbs.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tbs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tbs.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user-service2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tbs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tbs.UserApplication2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zull-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tbs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tbs.ZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ZuulApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.ConsumerApp" />
+        <item itemvalue="Spring Boot.UserApplication2" />
+        <item itemvalue="Spring Boot.UserApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f5271de-bd38-4a0e-9909-55075f4aed96" name="Default Changelist" comment="" />
+      <created>1700814079119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700814079119</updated>
+      <workItem from="1700814081970" duration="3564000" />
+      <workItem from="1700822757563" duration="13142000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

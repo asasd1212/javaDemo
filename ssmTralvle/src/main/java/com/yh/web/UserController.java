@@ -13,6 +13,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.TreeMap;
+
 @Controller
 @RequestMapping("user")
 public class UserController {
@@ -90,6 +92,7 @@ public class UserController {
     @GetMapping("getUsername")
     public String getUserName(){
     User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        System.out.println("contoller"+user.getUsername());
     return user.getUsername();
     }
 }
